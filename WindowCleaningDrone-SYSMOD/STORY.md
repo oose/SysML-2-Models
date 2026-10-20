@@ -3,7 +3,7 @@
 *The story of the Window Cleaning Drone, told from its system model. No modeling knowledge needed.*
 
 > [!TIP]
-> **📅 Next workshop:** [LINK TO NEXT WORKSHOP](#) · Trainings: [English](https://www.oose.com/topics/systems-engineering) · [Deutsch](https://www.oose.de/unsere-themen/systems-engineering)
+> **📅 Next workshop:** [LINK TO NEXT WORKSHOP - COMING SOON!](#) · Trainings: [English](https://www.oose.com/topics/systems-engineering) · [Deutsch](https://www.oose.de/unsere-themen/systems-engineering)
 
 ![The Window Cleaning Drone in one picture](img/the-idea.svg)
 
