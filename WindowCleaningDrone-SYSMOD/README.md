@@ -1,7 +1,7 @@
 # Window Cleaning Drone: a SysML v2 model built in public
 
 > [!TIP]
-> **📅 Next workshop:** [LINK TO NEXT WORKSHOP](#) · Want the full training? [Systems Engineering trainings (English)](https://www.oose.com/topics/systems-engineering) · [Systems-Engineering-Trainings (Deutsch)](https://www.oose.de/unsere-themen/systems-engineering)
+> **📅 Next workshop:** [LINK TO NEXT WORKSHOP - COMING SOON!](#) · Want the full training? [Systems Engineering trainings (English)](https://www.oose.com/topics/systems-engineering) · [Systems-Engineering-Trainings (Deutsch)](https://www.oose.de/unsere-themen/systems-engineering)
 
 This repository holds the system model developed live in the **Stop Prompting, Start Engineering** workshop. We build it together, one session at a time, in SysML v2 and following the SYSMOD method. Between sessions the model sits here, so you can review it, ask questions, and catch up before we meet again.
 
