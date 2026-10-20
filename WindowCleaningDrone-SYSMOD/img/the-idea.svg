@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 620" width="820" height="620" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <title>The Window Cleaning Drone in one picture</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dbeafa"/>
+      <stop offset="1" stop-color="#f4f8fc"/>
+    </linearGradient>
+    <pattern id="win" patternUnits="userSpaceOnUse" x="310" y="124" width="50" height="44">
+      <rect x="6" y="6" width="38" height="30" rx="2" fill="#9fc3e6" stroke="#6f8fae" stroke-width="1"/>
+      <path d="M12 30 L24 10" stroke="#ffffff" stroke-width="3" opacity="0.6"/>
+    </pattern>
+  </defs>
+
+  <!-- background -->
+  <rect x="0" y="0" width="820" height="620" rx="16" fill="url(#sky)"/>
+  <circle cx="110" cy="120" r="26" fill="#ffd966"/>
+  <rect x="0" y="540" width="820" height="80" fill="#dfe6d8"/>
+  <path d="M0 540 H820" stroke="#9aa88f" stroke-width="2"/>
+
+  <!-- title -->
+  <text x="30" y="42" font-size="22" font-weight="700" fill="#1f2d3d">The idea in one picture</text>
+  <text x="30" y="66" font-size="14" fill="#4a5a6a">Base Architecture of the Window Cleaning Drone</text>
+
+  <!-- tree -->
+  <rect x="76" y="480" width="8" height="60" fill="#8a6a4a"/>
+  <circle cx="80" cy="465" r="30" fill="#8fbf7f"/>
+
+  <!-- building -->
+  <rect x="300" y="110" width="220" height="430" fill="#cfd8e3" stroke="#5b6b7d" stroke-width="2"/>
+  <rect x="310" y="124" width="200" height="396" fill="url(#win)"/>
+  <!-- dirty glass (not yet cleaned) -->
+  <rect x="310" y="124" width="150" height="396" fill="#a8946c" opacity="0.32"/>
+  <rect x="460" y="320" width="50" height="200" fill="#a8946c" opacity="0.32"/>
+  <!-- sparkles on the clean column -->
+  <text x="490" y="160" font-size="14" fill="#ffffff">✦</text>
+  <text x="472" y="230" font-size="11" fill="#ffffff">✦</text>
+  <text x="494" y="270" font-size="12" fill="#ffffff">✦</text>
+
+  <!-- supply line ground station -> roof station -->
+  <path d="M600 512 H530 V102 H500" fill="none" stroke="#3d85c6" stroke-width="3" stroke-dasharray="7 5"/>
+
+  <!-- roof station -->
+  <rect x="436" y="80" width="68" height="30" rx="3" fill="#f2b84b" stroke="#a5741a" stroke-width="2"/>
+  <circle cx="460" cy="95" r="9" fill="#ffffff" stroke="#a5741a" stroke-width="2"/>
+  <circle cx="460" cy="95" r="3" fill="#a5741a"/>
+
+  <!-- tether -->
+  <path d="M500 96 C575 120 560 220 486 292" fill="none" stroke="#e07a2e" stroke-width="3.5"/>
+
+  <!-- drone -->
+  <line x1="455" y1="300" x2="428" y2="290" stroke="#26394f" stroke-width="4"/>
+  <line x1="515" y1="300" x2="542" y2="290" stroke="#26394f" stroke-width="4"/>
+  <ellipse cx="428" cy="286" rx="24" ry="4" fill="#8aa0b8" opacity="0.85"/>
+  <ellipse cx="542" cy="286" rx="24" ry="4" fill="#8aa0b8" opacity="0.85"/>
+  <rect x="452" y="292" width="66" height="20" rx="7" fill="#26394f"/>
+  <circle cx="507" cy="302" r="3" fill="#7ee0a0"/>
+  <rect x="468" y="312" width="34" height="9" rx="3" fill="#f2b84b"/>
+  <!-- spray -->
+  <circle cx="474" cy="330" r="2" fill="#3d85c6"/>
+  <circle cx="484" cy="336" r="2" fill="#3d85c6"/>
+  <circle cx="494" cy="331" r="2" fill="#3d85c6"/>
+  <circle cx="479" cy="344" r="1.6" fill="#3d85c6"/>
+  <circle cx="490" cy="346" r="1.6" fill="#3d85c6"/>
+
+  <!-- ground station -->
+  <rect x="600" y="488" width="120" height="44" rx="6" fill="#6fa8dc" stroke="#2f5f8f" stroke-width="2"/>
+  <rect x="612" y="496" width="44" height="28" rx="12" fill="#ffffff" stroke="#2f5f8f" stroke-width="1.5"/>
+  <circle cx="625" cy="536" r="8" fill="#26394f"/>
+  <circle cx="697" cy="536" r="8" fill="#26394f"/>
+
+  <!-- operator -->
+  <circle cx="220" cy="488" r="9" fill="#26394f"/>
+  <path d="M220 497 V522 M220 522 L210 540 M220 522 L230 540 M220 505 L236 508" stroke="#26394f" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <rect x="234" y="500" width="14" height="10" rx="2" fill="#7ee0a0" stroke="#26394f" stroke-width="1.5"/>
+  <path d="M256 492 Q266 482 262 470 M264 498 Q280 482 272 462" stroke="#26394f" stroke-width="1.5" fill="none" stroke-dasharray="3 3"/>
+
+  <!-- labels -->
+  <g font-size="14" fill="#1f2d3d">
+    <text x="575" y="88" font-weight="700">Roof station</text>
+    <text x="575" y="106" font-size="12" fill="#4a5a6a">holds the tether, feeds water and power</text>
+
+    <text x="575" y="186" font-weight="700" fill="#c0601d">Tether</text>
+    <text x="575" y="204" font-size="12" fill="#4a5a6a">one line: water, power and data</text>
+
+    <text x="575" y="300" font-weight="700">Cleaning drone</text>
+    <text x="575" y="318" font-size="12" fill="#4a5a6a">holds position, sprays and scrubs</text>
+
+    <text x="600" y="456" font-weight="700">Ground station</text>
+    <text x="600" y="474" font-size="12" fill="#4a5a6a">optional: treats and pumps water</text>
+
+    <text x="130" y="440" font-weight="700">Operator console</text>
+    <text x="130" y="458" font-size="12" fill="#4a5a6a">plan, start, watch, stop</text>
+  </g>
+
+  <!-- legend -->
+  <g font-size="12" fill="#4a5a6a">
+    <line x1="30" y1="590" x2="58" y2="590" stroke="#e07a2e" stroke-width="3.5"/>
+    <text x="66" y="594">tether</text>
+    <line x1="130" y1="590" x2="158" y2="590" stroke="#3d85c6" stroke-width="3" stroke-dasharray="7 5"/>
+    <text x="166" y="594">water and power from the ground (only if the roof has none)</text>
+    <rect x="560" y="582" width="22" height="16" fill="#a8946c" opacity="0.45"/>
+    <text x="590" y="594">glass still to be cleaned</text>
+  </g>
+</svg>
